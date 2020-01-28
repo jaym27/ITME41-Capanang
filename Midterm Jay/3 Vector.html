@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>3 Vector</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="3vector.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/e1e6fdf70c.js"></script>
+</head>
+<body>
+
+	<!-- Burger menu icon and animation -->
+	<div class="burger-menu-btn" onclick="myFunction(this); toogleSlideMenu(this);">
+		<div class="burger-menu-bar-1"></div>
+		<div class="burger-menu-bar-2"></div>
+		<div class="burger-menu-bar-3"></div>
+	</div>
+
+	<script>
+		function myFunction(x) {
+			x.classList.toggle("change");
+		}
+		
+		function toogleSlideMenu(x){
+      if(x.classList.contains('change')){
+      	document.getElementById('burger-menu').style.width = '75%';
+      }
+      else{
+      	document.getElementById('burger-menu').style.width = '0px';
+      }
+		}
+	
+	</script>
+
+	<div id="burger-menu" class="side-nav">
+	<div class="input-group input-group-lg">
+  	<span class="input-group-addon" id="sizing-addon1">
+  	<a href="#input"><i class="fas fa-search"></i></a>
+  	</span>
+  	<input type="text" class="form-control" id="input" placeholder="Search">
+	</div>
+
+	<ul class="navbar-nav">
+		<li class="nav-item">
+			<a href="#"><i class="far fa-calendar-alt"></i>Exhibitions & Events</a>
+		</li>
+		<li class="nav-item">
+			<a href="#"><i class="fas fa-shapes"></i>Artists & Artworks</a>
+		</li>
+		<li class="nav-item">
+			<a href="#"><i class="fas fa-cube"></i>Collections</a>
+		</li>
+		<li class="nav-item">
+			<a href="#"><i class="fas fa-ticket-alt"></i>Plan Your Visit</a>
+		</li>		
+		<li class="nav-item">
+			<a href="#"><i class="fas fa-id-card"></i>Become a Member</a>
+		</li>
+		<li class="nav-item">
+			<a href="#"><i class="fas fa-gift"></i>Shop</a>
+		</li>
+	</ul>
+	</div>
+
+<div class="container-fluid">
+<nav class="navbar navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">The</br>Art</br>Museum</a>
+   
+   </div>
+   </div>
+</nav>
+ 
+<div class="container-fluid">
+</br>
+  <img src="Imagee.png"></br>
+  <h3>EXHIBITION</H3>
+  <h1>MASTERS</br>OLD AND </br>NEW</h1>
+  <h2>APRIL 15 - SEPTEMBER 20 </h2>
+  <h6>FLOOR 5</H6>
+  <form align="center" >			
+	<button type="submit" class="btn btn-primary">Plan Your Visit</button>				
+	</form>	
+	
+</div>
+<span class="street"><i class="fas fa-map-marker-alt"></i>	151 3rd St</br>&nbsp;&nbsp;&nbsp; San Francisco, CA 94103	</span>
+<span class="clock"><i class="fas fa-clock"></i> Open today 10:00am — 5:30pm</span>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

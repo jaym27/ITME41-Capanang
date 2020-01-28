@@ -1,0 +1,87 @@
+
+
+.fa-bars{
+	float:right;
+	font-size:30px;
+		transform: translate(-50px, -40px);
+
+}
+
+.navbar-brand{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+position: absolute;
+color: #000000;
+}
+h1{
+	position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 10px;
+letter-spacing:1px;
+transform: translate(120px, -50px);
+color: #FF473A;
+}
+h6{
+	position: absolute;
+left: 13px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 12px;
+
+display: flex;
+align-items: center;
+color: #979797;
+}
+h3{
+position:absolute;
+left: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 22px;
+
+color: #000000;
+}
+h4{
+	position:absolute;
+
+left: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+
+}
+.fa-chevron-right{
+	float:right;
+	transform: translate(-50px, 30px);
+}
+.btn{
+	background-color: #FF473A;
+    position: absolute;
+    transform: translate(-160px, 65px);
+    box-shadow: 0px 4px 4px;
+    width: 75%;
+}
+
+.navbar {
+	position: relative;
+	min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+	border-color: unset;
+}
